@@ -1,75 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Nhà nghỉ Thụy Vân</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #f5f5f5;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-        }
-        .box {
-            background: white;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #e74c3c;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhà nghỉ Thuỵ Vân</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; line-height:1.6; background:#f8f9fa;}
+    header {background:linear-gradient(135deg,#2c3e50,#34495e); color:white; padding:30px 20px; text-align:center;}
+    h1 {margin-bottom:10px;}
+    section {padding:25px; max-width:1000px; margin:auto; background:white; margin-top:15px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);} 
+    .btn {display:inline-block; margin:8px 5px; padding:12px 18px; background:#27ae60; color:white; text-decoration:none; border-radius:6px; font-weight:bold;}
+    .btn.secondary {background:#2980b9;}
+    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px;}
+    .gallery img {width:100%; border-radius:10px;}
+    footer {background:#2c3e50; color:white; text-align:center; padding:15px; margin-top:20px;}
+  </style>
 </head>
-
 <body>
 
 <header>
-    <h1>Nhà nghỉ Thụy Vân</h1>
-    <p>Phòng sạch sẽ - Giá hợp lý</p>
+  <h1>NHÀ NGHỈ THUỴ VÂN</h1>
+  <p>Sạch sẽ – Giá tốt – Phục vụ 24/7</p>
+  <a class="btn" href="tel:0972734787">📞 Gọi 0972 734 787</a>
+  <a class="btn" href="tel:0914077886">📞 Gọi 0914 077 886</a>
+  <a class="btn" href="https://zalo.me/0972734787" target="_blank">💬 Zalo</a>
+  <br>
+  <a class="btn secondary" href="https://www.google.com/maps/dir/?api=1&destination=3/188+Bến+Sung+4+Như+Thanh+Thanh+Hoá" target="_blank">🗺️ Chỉ đường ngay</a>
 </header>
 
-<div class="container">
+<section>
+  <h2>Giới thiệu</h2>
+  <p>Nhà nghỉ Thuỵ Vân là địa điểm lưu trú uy tín tại Như Thanh, Thanh Hoá. Phòng sạch sẽ, thoáng mát, đầy đủ tiện nghi như điều hoà, nóng lạnh, wifi miễn phí.</p>
+  <p>✔ Phục vụ 24/24<br>
+     ✔ Giá cả hợp lý<br>
+     ✔ Có chỗ đỗ xe ô tô rộng rãi<br>
+     ✔ Nhận khách nghỉ giờ, qua đêm linh hoạt<br>
+     ✔ Phù hợp khách đi công tác, du lịch</p>
+</section>
 
-    <div class="box">
-        <h2>📍 Địa chỉ</h2>
-        <p>Số 3/188, khu phố 4, Như Thanh, Thanh Hoá</p>
-    </div>
+<section>
+  <h2>Hình ảnh</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x300" alt="Phòng nghỉ">
+    <img src="https://via.placeholder.com/400x300" alt="Phòng nghỉ">
+    <img src="https://via.placeholder.com/400x300" alt="Nhà vệ sinh">
+    <img src="https://via.placeholder.com/400x300" alt="Khu để xe">
+  </div>
+</section>
 
-    <div class="box">
-        <h2>💰 Giá phòng</h2>
-        <p>Phòng đơn: 200.000đ</p>
-        <p>Phòng đôi: 300.000đ</p>
-    </div>
+<section>
+  <h2>Liên hệ</h2>
+  <p><strong>Địa chỉ:</strong> Số 3/188, thôn Bến Sung 4, xã Như Thanh, tỉnh Thanh Hoá</p>
+  <p><strong>Điện thoại:</strong> 0972 734 787 - 0914 077 886</p>
+  <p><strong>Zalo:</strong> <a href="https://zalo.me/0972734787" target="_blank">Chat ngay</a></p>
+  <p><a class="btn secondary" href="https://www.google.com/maps/dir/?api=1&destination=3/188+Bến+Sung+4+Như+Thanh+Thanh+Hoá" target="_blank">🗺️ Mở Google Maps chỉ đường</a></p>
 
-    <div class="box">
-        <h2>📞 Liên hệ</h2>
-        <p>0972734787</p>
-        <a class="btn" href="tel:0972734787">Gọi ngay</a>
-    </div>
-
-    <div class="box">
-        <h2>🌟 Tiện nghi</h2>
-        <p>✔ Wifi miễn phí</p>
-        <p>✔ Điều hoà</p>
-        <p>✔ Chỗ để xe</p>
-    </div>
-
-</div>
-
-</body>
-</html>
-
+  <iframe 
