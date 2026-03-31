@@ -1,112 +1,157 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nhà nghỉ Thụy Vân</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhà nghỉ Thuỵ Vân</title>
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f5f5;
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f6fa;
+      line-height: 1.6;
+    }
 
-header {
-    background: url("anh.jpg") center/cover no-repeat;
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-    position: relative;
-}
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: white;
+      padding: 30px 15px;
+      text-align: center;
+    }
 
-header::after {
-    content: "";
-    position: absolute;
-    top:0; left:0; right:0; bottom:0;
-    background: rgba(0,0,0,0.5);
-}
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
 
-header h1, header p {
-    position: relative;
-    z-index: 1;
-}
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 15px;
+    }
 
-h1 { margin: 0; font-size: 36px; }
+    .box {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-}
+    h2 {
+      color: #2c3e50;
+      margin-top: 0;
+    }
 
-.section {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-}
+    ul {
+      padding-left: 20px;
+    }
 
-.btn {
-    display: inline-block;
-    margin: 8px 5px;
-    padding: 12px 18px;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #28a745;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
 
-.call { background: #e74c3c; }
-.zalo { background: #2980b9; }
-.map { background: #27ae60; }
+    .btn-zalo {
+      background: #0084ff;
+    }
 
-footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-</style>
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-    <h1>NHÀ NGHỈ THỤY VÂN</h1>
-    <p>Sạch sẽ – Giá tốt – Phục vụ 24/7</p>
+  <h1>NHÀ NGHỈ THUỴ VÂN</h1>
+  <p>Nghỉ ngơi sạch sẽ – Giá hợp lý – Phục vụ 24/24</p>
+  <p>📞 0972 734 787 – 0914 077 886</p>
+
+  <a class="btn" href="tel:0972734787">📞 Gọi ngay</a>
 </header>
 
 <div class="container">
 
-<div class="section">
-    <h2>📍 Thông tin</h2>
-    <p>Địa chỉ: Số 3/188, khu phố 4, Như Thanh, Thanh Hóa</p>
-    <p>Điện thoại: 0972734787</p>
+  <div class="box">
+    <h2>🏠 Giới thiệu</h2>
+    <p>
+      Nhà nghỉ Thuỵ Vân cung cấp phòng nghỉ sạch sẽ, thoáng mát, đầy đủ tiện nghi,
+      phù hợp cho khách nghỉ ngắn hạn, công tác và gia đình.
+    </p>
+  </div>
 
-    <a class="btn call" href="tel:0972734787">📞 Gọi ngay</a>
-    <a class="btn zalo" href="https://zalo.me/0972734787">💬 Zalo</a>
-    <a class="btn map" href="https://maps.google.com">📍 Chỉ đường</a>
+  <div class="box">
+    <h2>🛏️ Tiện nghi & dịch vụ</h2>
+    <ul>
+      <li>Phòng sạch sẽ, thoáng mát</li>
+      <li>Điều hoà, nóng lạnh đầy đủ</li>
+      <li>Wifi miễn phí</li>
+      <li>Chỗ đỗ xe ô tô rộng rãi</li>
+      <li>Phục vụ 24/24</li>
+      <li>An ninh đảm bảo</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>📸 Hình ảnh</h2>
+    <p>Hiện đang cập nhật hình ảnh thực tế. Vui lòng liên hệ để được tư vấn chi tiết.</p>
+  </div>
+
+  <div class="box">
+    <h2>⭐ Đánh giá khách hàng</h2>
+    <p>✔️ Phòng sạch sẽ, giá hợp lý</p>
+    <p>✔️ Chủ thân thiện, phục vụ tốt</p>
+    <p>✔️ Có chỗ đỗ xe ô tô rất tiện</p>
+
+    <a class="btn" href="tel:0972734787">📞 Gọi đặt phòng ngay</a>
+  </div>
+
+  <div class="box">
+    <h2>🗺️ Bản đồ</h2>
+
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15031.247762150171!2d105.57370685851556!3d19.635336149251962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31371dbb0e91d0a9%3A0x5c0e5f0d07eb535a!2zTmjDoCBuZ2jhu4kgVGjhu6V5IFbDom4!5e0!3m2!1svi!2s!4v1774940636367!5m2!1svi!2s"
+    loading="lazy">
+    </iframe>
+
+    <p>
+      <a href="https://maps.app.goo.gl/JiYNZWoswZSQuogw7" target="_blank">
+      👉 Mở Google Maps chỉ đường
+      </a>
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>🔎 Tìm kiếm</h2>
+    <p>
+      Nhà nghỉ Như Thanh, nhà nghỉ Bến Sung, nhà nghỉ Thanh Hoá,
+      nhà nghỉ giá rẻ Như Thanh, nhà nghỉ có chỗ đỗ xe ô tô, nhà nghỉ Thuỵ Vân.
+    </p>
+  </div>
+
 </div>
 
-<div class="section">
-    <h2>💰 Giá phòng</h2>
-    <p>Phòng đơn: 150.000đ</p>
-    <p>Phòng đôi: 250.000đ</p>
+<div class="footer">
+  © 2026 Nhà nghỉ Thuỵ Vân - Bến Sung, Như Thanh, Thanh Hoá
 </div>
-
-<div class="section">
-    <h2>⭐ Ưu điểm</h2>
-    <p>- Sạch sẽ, thoáng mát</p>
-    <p>- Phục vụ 24/7</p>
-    <p>- Giá cả hợp lý</p>
-</div>
-
-</div>
-
-<footer>
-    © 2026 Nhà nghỉ Thụy Vân
-</footer>
 
 </body>
 </html>
